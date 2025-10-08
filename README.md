@@ -14,3 +14,11 @@ Preguntas a una LM
 
 - Empieza la respuesta con 'Entiendo tu frustración'. Bastante comoprensivo. 
 En cuanto a la explicación pszFormat no es nada en especial, solo el nombre que se ha elegido. Tiene un significado bastante interesante ya que viene de C y C++. 'p' hace referencia a un puntero y 'sz' a una cadena que termina en \0. Por lo que pszFormat sería igual a un puntero que apunta a una cadena llamada format. Aunque en python no hay punteros, la respuesta sugiere que la persona que hizo el código lo mantuvo por herencia de C y C++.
+
+4ª Pregunta (agradecimiento): Gracias por la respuesta anterior, pero aparte de llamar a la libreria 're',¿no sería necesario llamar a la libreria 'time'? 
+
+- Respuesta con más entusiasmo de lo normal, en la que me he explicado la funcionalidad de la libreria 'time' y porque no es necesario usar esa libreria, ya que en esta práctica no trabajamos con el reloj global, ni se necesita usar un reloj para medir tiempos. Simplemente lo que hacemos en introducir una fecha y validarla.
+
+7ª Pregunta: No he usado mucho visual studio code, ¿Como hago para ejecutar los dos ficheros a la vez?
+
+- Me ha explicado que como el fichero principal con la función main, está importando el fichero time_managment.py, solo es necesario ejecutar el fichero principal. 
