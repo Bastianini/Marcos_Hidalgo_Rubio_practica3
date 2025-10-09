@@ -19,6 +19,14 @@ En cuanto a la explicación pszFormat no es nada en especial, solo el nombre que
 
 - Respuesta con más entusiasmo de lo normal, en la que me he explicado la funcionalidad de la libreria 'time' y porque no es necesario usar esa libreria, ya que en esta práctica no trabajamos con el reloj global, ni se necesita usar un reloj para medir tiempos. Simplemente lo que hacemos en introducir una fecha y validarla.
 
-7ª Pregunta: No he usado mucho visual studio code, ¿Como hago para ejecutar los dos ficheros a la vez?
+5ª Pregunta: ¿Cómo hago para depurar los ficheros antes de ejecutarlos?
 
-- Me ha explicado que como el fichero principal con la función main, está importando el fichero time_managment.py, solo es necesario ejecutar el fichero principal. 
+- Me ha recomendado crear un fichero json personalizado para depurar el fichero. Lo malo es que solo servía para este fichero pero al final, hemos conseguido hacer un fichero global que me sirva para futuros programas.
+
+6ª Pregunta: No he usado mucho visual studio code, ¿Como hago para ejecutar los dos ficheros a la vez?
+
+- Me ha explicado que como el fichero principal con la función main, está importando el fichero time_managment.py, solo es necesario ejecutar el fichero principal.
+
+7ª Pregunta: ¿Por qué cuando cierro el programa y luego lo quiero volver a lanzar me da error?
+
+ - Resulta que cuando mando depurar el fichero, se crea una conexión interna entre vscode y el intérprete de Python. Como yo estaba cerrando el programa con ctrl+c (por la costumbre de trabajar con la terminal), esa conexión se rompia. Cuando yo quería relanzar el programa vscode intentaba buscar otra vez eso conexión que ya no existe. La solución es para la ejecución con la barra de instrucciones que da vscode.
